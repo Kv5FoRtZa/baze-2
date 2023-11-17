@@ -1,0 +1,71 @@
+.bg
+{
+    height: 100%;
+    background-image: url("poze/white-painted-wall-texture-background_53876-138197.avif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover ;
+    position: relative;
+    align-items: center;
+}
+button
+{
+    border-radius: 10px;
+    font-size: larger;
+    color: black;
+    background-color: antiquewhite;
+    border-radius: none;
+    transition-duration: 0.2s;
+    cursor: pointer;
+    -ms-transform: center;
+    transform: center;
+}
+button:hover
+{
+    background-color: rgb(248, 222, 187);
+    color: black;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.header
+{
+    padding: 60px;
+    text-align: center;
+    background-image: url("poze/white-painted-wall-texture-background_53876-138197.avif");
+    color: black;
+    font-size: 30px;
+}
+.dropdown 
+{
+    display: inline-block;
+    position: relative;
+    left: 40%;
+    border-width: 5px;
+    border: #000000;
+}
+.dropdown-content 
+{
+    display: none;
+    position: absolute;
+    width: 100%;
+    overflow: auto;
+    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+    background-color: antiquewhite;
+    border: #000000;
+    border-width: 10px;
+}
+.dropdown:hover .dropdown-content 
+{
+    display: block;
+}
+.dropdown-content a 
+{
+    display: block;
+    color: #000000;
+    padding: 5px;
+    text-decoration: none;
+}
+.dropdown-content a:hover 
+{
+    color: #FFFFFF;
+    background-color: #00A4BD;
+}
