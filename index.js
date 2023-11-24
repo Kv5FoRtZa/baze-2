@@ -1,1 +1,0 @@
-alert("am pus asta ca sa vad ca merge js ul");
